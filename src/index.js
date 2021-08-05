@@ -1,14 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import { App } from './App';
 
-const myName = 'Dmitriy';
+// const someObj = {
+//   name:'Dmitriy',
+//   text: 'Это тестовое сообщение'
+// };
 
 ReactDOM.render(
- <React.StrictMode>
-   <App name={myName} />
- </React.StrictMode>,
- document.getElementById("root")
+  <React.StrictMode>
+    <App/>
+  </React.StrictMode>,
+  document.getElementById("root")
 );
 
