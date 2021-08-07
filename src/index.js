@@ -3,15 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import { App } from './App';
 
-// const someObj = {
-//   name:'Dmitriy',
-//   text: 'Это тестовое сообщение'
-// };
-
 ReactDOM.render(
   <React.StrictMode>
-    <App/>
+    <App />
   </React.StrictMode>,
-  document.getElementById("root")
+  document.getElementById('root'),
 );
-
