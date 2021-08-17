@@ -1,13 +1,5 @@
-import "./message.css";
-import SendIcon from "@material-ui/icons/Send";
+import './message.css';
 
-export function Send() {
-  return (
-    <div>
-      <SendIcon />
-    </div>
-  );
-}
 
 export function Message(props) {
   return (

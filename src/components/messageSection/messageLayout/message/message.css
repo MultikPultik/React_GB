@@ -22,7 +22,7 @@
 
 .Header-msg {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   font-size: 12px;
   min-width: 100px;
   color: darkcyan;
@@ -30,6 +30,6 @@
 
 .Content-msg {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   font-size: 15px;
 }
