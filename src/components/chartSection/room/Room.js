@@ -33,7 +33,7 @@ export function Room(props) {
       <ListItemIcon>
         <AccountCircleIcon />
       </ListItemIcon>
-      <ListItemText primary={props.user} />
+      <ListItemText primary={props.chart} />
       <IconButton className={classes.iconButton}>
         <MoreVertIcon />
       </IconButton>

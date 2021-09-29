@@ -16,9 +16,9 @@ export function ChartSection() {
       <Header />
       <Divider />
       <List className={classes.list}>
-        <Room user={'User1'} selected={!true} />
-        <Room user={'User2'} />
-        <Room user={'User3'} />
+        <Room chart={'Chart1'} selected={!true} />
+        <Room chart={'Chart2'} />
+        <Room chart={'Chart3'} />
       </List>
     </Box>
   );
